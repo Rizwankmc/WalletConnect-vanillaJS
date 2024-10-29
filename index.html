@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+        <button id="open-connect-modal">Open Modal</button>
+        <button id="open-network-modal">Open Networks</button>
+        <div id="show-balance"></div>
+        <br/><br/>
+
+        <h1>GMCP Token Transfer</h1>
+        <input type="hidden" id="tokenAddress" value="0x2D9079dD4f144a2dbcEcffdB841e1BDC60094CA3">
+        <input type="hidden" id="recipientAddress" value="0xa5db58C1e18c6d703c71156134ed99d4ae4357dF">
+        <input type="hidden" id="amount" value="0.001">
+        <button id="transfer">Transfer</button> <br><br>
+        <font size=+1>Note : Do not close or leave this page after the transfer is done. The system will automatically redirect you to the next page.</font>
+</div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
